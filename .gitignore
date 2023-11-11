@@ -1,8 +1,6 @@
-/shelf/
-/.idea/workspace.xml
-/httpRequests/
-/dataSources/
-/dataSources.local.xml
-/.idea
-/target
-courses.db*
+.DS_Store
+target/
+.idea/
+*.iml
+*.db
+dependency-reduced-pom.xml
