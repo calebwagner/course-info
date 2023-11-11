@@ -1,0 +1,17 @@
+2023-11-11 17:47:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Parameter "#3" is not set; SQL statement:
+MERGE INTO Courses (id, name, length, url)
+VALUES (?, ?, ?, ?) [90012-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:646)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.Parameter.checkSet(Parameter.java:75)
+	at org.h2.command.Prepared.checkParameters(Prepared.java:207)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:159)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.execute(JdbcPreparedStatement.java:254)
+	at com.pluralsight.courseinfo.repository.CourseJdbcRepository.saveCourse(CourseJdbcRepository.java:34)
+	at com.pluralsight.courseinfo.cli.service.CourseStorageService.storePluralsightCourses(CourseStorageService.java:22)
+	at com.pluralsight.courseinfo.cli.CourseRetriever.retrieveCourses(CourseRetriever.java:44)
+	at com.pluralsight.courseinfo.cli.CourseRetriever.main(CourseRetriever.java:27)
