@@ -5,7 +5,7 @@
 - building a java project using maven
 - Java 17 language features
 - testing code using JUnit
-- calling a web API using Java HTTpClient
+- calling a web API using Java HTTPClient
 - storing data in a relational database
 - creating a REST API using JAX-RS
 
