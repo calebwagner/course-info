@@ -38,5 +38,10 @@ class CourseStorageServiceTest {
         public List<Course> getAllCourses() {
             return courses;
         }
+
+        @Override
+        public void addNotes(String id, String notes) {
+            throw new UnsupportedOperationException();
+        }
     }
 }
