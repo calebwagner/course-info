@@ -16,6 +16,15 @@
 - H2 databse
 - JUnit
 
+### Endpoints
+#### Hitting endpoints in Postman and in Terminal (while running locally)
+| HTTP Method | Column 2 Header | Command Line |
+|-----------------|-----------------|-----------------|
+| Get             | http://localhost:8080/courses   | Row 1, Col 3    |
+| POST | http://localhost:8080/courses/{course_id}/notes   | Row 2, Col 3    |
+| DELETE   | http://localhost:8080/courses/{course_id}   | Row 3, Col 3    |
+
+
 ### Next steps for this project:
 - get courses from another api
 - add a delete course endpoint to the rest api
