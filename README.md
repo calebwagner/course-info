@@ -17,12 +17,11 @@
 - JUnit
 
 ### Endpoints
-#### Hitting endpoints in Postman and in Terminal (while running locally)
-| HTTP Method | Column 2 Header | Command Line |
-|-----------------|-----------------|-----------------|
-| Get             | http://localhost:8080/courses   | Row 1, Col 3    |
-| POST | http://localhost:8080/courses/{course_id}/notes   | Row 2, Col 3    |
-| DELETE   | http://localhost:8080/courses/{course_id}   | Row 3, Col 3    |
+| HTTP Methods | Endpoints |
+|-----------------|-----------------|
+| GET    | {baseUrl}/courses   |
+| POST | {baseUrl}/courses/{id}/notes   |
+| DELETE   | {baseUrl}/courses/{id}   |
 
 
 ### Next steps for this project:
